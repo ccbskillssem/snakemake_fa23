@@ -1,0 +1,30 @@
+# NOTE: The paths in this sample config files are *local* paths, because everyone's working directory will be different for the workshop.
+# In practice, I recommend using global (full) paths in this config file, just to be safe :)
+
+#############################
+### Project configuration ###
+#############################
+
+sample_table: "config/samples.tsv"
+  
+###############################
+### Analysis config options ###
+###############################
+
+# This section is useful for setting up references to paths that will come up repeatedly in your workflow.
+
+# For example, you may point to the same reference genome + annotation files (.bed, .gff, etc) for different analyses.
+# Once the refgenome's fasta path is registered in this file, you can refer to it with config['reference']['fasta'].
+
+# You can also set up parameters for analyses here, s.t. you can configure and edit all your parameters from this file instead of going to each relevant rule.
+
+reference:
+  ftp: 'https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/496/975/GCF_009496975.1_ASM949697v1/GCF_009496975.1_ASM949697v1_genomic.fna.gz'
+  fasta: "data/GCF_009496975.1_ASM949697v1_genomic.fna"
+
+get_data:
+  n_reads: 100000
+
+cutadapt:
+  overlap: 5
+  min_length: 30

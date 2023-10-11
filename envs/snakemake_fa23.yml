@@ -1,0 +1,8 @@
+name: snakemake_fa23
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python==3.12.0
+  - pandas==2.1.1
+  - snakemake-minimal==7.32.4

@@ -1,0 +1,13 @@
+# data folders
+data/
+
+# output
+output/
+logs/
+
+# caches
+.snakemake/
+.ipynb_checkpoints
+.DS_Store
+._.DS_Store
+.svn/

@@ -1,0 +1,6 @@
+name: get_data
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - sra-tools

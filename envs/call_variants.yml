@@ -1,0 +1,7 @@
+name: call_variants
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - samtools==1.18
+  - bcftools==1.18
