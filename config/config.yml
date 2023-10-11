@@ -5,7 +5,7 @@
 ### Project configuration ###
 #############################
 
-sample_table: "config/samples.tsv"
+sample_table: "config/subset.tsv"
   
 ###############################
 ### Analysis config options ###
