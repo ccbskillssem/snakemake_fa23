@@ -64,7 +64,7 @@ conda activate snakemake_fa23
 ```
 ## Slides
 
-I will add a link to the tutorial slides after the live tutorial is done. 💻
+There is a PDF copy of the slides in the repository above. Note that I may need to update it after the live workshop is over. 💻
 
 ## Commands
 This is a list of commands from the live workshop. All of the rules are documented with comments as well. All examples below will run the workflow to generate the `output/visuals/vcf_heatmap.pdf` target file.
