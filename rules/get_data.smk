@@ -1,8 +1,6 @@
 rule get_reads:
     # Given an NCBI Sequence Read Archive (SRA) ID, downloads a subset of reads associated with the ID.
     # This rule doesn't operate on a file as input, so we don't provide an input field.
-    # The ID provided to the command is parsed from the desired output filename.
-    # This can be confusing: remember that snakemake doesn't go from a given input to the resulting output, it goes from a desired output to understand the required input!
     # Note: We apply the temporary flag to these files because we want to combine them into a single interleaved (read 1 + read 2) file (see rules/preprocssing.smk).
     output:
         temp("data/{id}_1.fastq"),

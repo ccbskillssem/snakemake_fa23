@@ -1,6 +1,11 @@
 # NOTE: The paths in this sample config files are *local* paths, because everyone's working directory will be different for the workshop.
 # In practice, I recommend using global (full) paths in this config file, just to be safe :)
 
+# Notes on this file:
+# The contents of this file are parsed by snakemake into a list of lists called "config".
+# This is handy for referring to values established in config elsewhere in your rules.
+# In the slides, I demonstrated how I refer to entries within this file in relevant rules – for example, the overlap parameter in the cutadapt_trim rule.
+
 #############################
 ### Project configuration ###
 #############################
