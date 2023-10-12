@@ -1,3 +1,9 @@
+# Notes on these rules:
+# We use wildcards to indicate a variable part of the file path. 
+# Example: data/SRR2303207.fastq.gz and data/SRR2303208.fastq.gz vary by the indicated {id} component in data/{id}.fastq.gz. 
+# If we specify a target output file with the path output/cutadapt/SRR2303207.trimmed.fastq.gz, snakemake understands to form-fill every instance of {id} with SRR2303207.
+# # You'll also see references to a variable called config in the params field of some rules: refer to the slides on config file setup to learn how/why this works.
+
 rule bwa_index:
     # Creates index database for the reference genome.
     input:
