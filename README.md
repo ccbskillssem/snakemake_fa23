@@ -1,7 +1,7 @@
 # CCB Skills Seminar (Fall 2023)
 ## **A gentle introduction to `snakemake`**: A tool for automating and streamlining your analyses 🐍
 
-Created by [Stacy Li](stacy.li) for the [Center for Computational Biology](ccb.berkeley.edu) at UC Berkeley.
+Created by [Stacy Li](linktr.ee/stacy_li) for the [Center for Computational Biology](ccb.berkeley.edu) at UC Berkeley.
 
 --------------
 
@@ -16,10 +16,11 @@ This is a repository containing a sample configuration + workflow for learning `
 - [Independent setup](#independent-tutorial-setup)
 - [Commands](#commands)
 - [Credits](#credits)
+- [Contact info](#contact-info)
 
 ## Slides
 
-There is a PDF copy of the slides in the repository above. Note that I may need to update it after the live workshop is over. 💻
+There is a PDF copy of the slides in the repository above: **note that the slides have been updated with corrections made during the live workshop.**
 
 ## Requirements
 You need `conda` (Anaconda distribution, `conda`, and `miniconda`) or a `conda`-like (`mamba`, `micromamba`, etc) package manager installed to run this tutorial. That's it! All other packages will be installed into their own isolated environments as you go along.
@@ -72,12 +73,18 @@ This is a list of commands from the live workshop. All of the rules are document
 
 To do a dry run of the workflow, where `n` = max number of jobs to run in parallel:
 ```
-snakemake --pj{n} --use-conda output/visuals/vcf_heatmap.pdf -np
+snakemake -pj{n} --use-conda output/visuals/vcf_heatmap.pdf -np
+```
+
+For example, to run with 10 maximum jobs:
+
+```
+snakemake -pj10 --use-conda output/visuals/vcf_heatmap.pdf -np
 ```
 
 To perform a *real* run of workflow:
 ```
-snakemake --pj{n} --use-conda output/visuals/vcf_heatmap.pdf
+snakemake -pj{n} --use-conda output/visuals/vcf_heatmap.pdf
 ```
 
 To create a visualization of the rule graph:
@@ -100,3 +107,6 @@ Once you feel comfortable with how the above commands work, I recommend trying o
 The short-read *Fructilactobacillus sanfranciscensis* data used in this workshop is from [Rogalski et al 2020](https://www.sciencedirect.com/science/article/pii/S0944501320304936). The `vcfR` heatmap plotting script is a modified version of a script from [Olawoye et al 2020](https://doi.org/10.7717/peerj.10121).
 
 Thank you to my wonderful research group, [The Sudmant Lab](sudmantlab.org). As always, I am especially for my advisor Dr. Peter Sudmant and mentor Dr. Juan Manuel Vazquez. Everything I do is only possible because I stand upon the shoulders of giants. 🌟
+
+## Contact info
+If you'd like to stay in touch, please feel free to connect with me using any of the platforms [here](linktr.ee/stacy_li). If you're local, come and say hi at the next CCB event 👋
