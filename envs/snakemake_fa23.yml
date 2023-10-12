@@ -6,3 +6,7 @@ dependencies:
   - python==3.12.0
   - pandas==2.1.1
   - snakemake-minimal==7.32.4
+  # pygments is only necessary for snakemake report generation
+  # it's included in the full snakemake install
+  # but I wanted to keep this environment lightweight with snakemake-minimal
+  - pygments

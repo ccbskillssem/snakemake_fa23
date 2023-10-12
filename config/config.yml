@@ -6,7 +6,7 @@
 #############################
 
 sample_table: "config/subset.tsv"
-  
+
 ###############################
 ### Analysis config options ###
 ###############################
@@ -22,7 +22,7 @@ reference:
   ftp: 'https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/496/975/GCF_009496975.1_ASM949697v1/GCF_009496975.1_ASM949697v1_genomic.fna.gz'
   fasta: "data/GCF_009496975.1_ASM949697v1_genomic.fna"
 
-get_data:
+fastq-dump:
   n_reads: 100000
 
 cutadapt:

@@ -7,11 +7,11 @@ rule bcftools_call:
         bam = expand("output/bwa/{id}.sorted.bam", id = specimens),
         index = expand("output/bwa/{id}.sorted.bam.bai", id = specimens)
     output:
-        "output/bcftools/all_samples.vcf"
+        "output/variants/all_samples.vcf.gz"
     conda:
         "../envs/call_variants.yml"
     threads: 10
     shell:
         """
-        bcftools mpileup -f {input.refgenome} {input.bam} | bcftools call --ploidy 1 -mv - > {output}
+        bcftools mpileup -f {input.refgenome} {input.bam} | bcftools call --ploidy 1 -mv - | bgzip -c > {output}
         """

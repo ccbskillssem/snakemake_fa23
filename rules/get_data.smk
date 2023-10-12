@@ -11,7 +11,7 @@ rule get_reads:
         '../envs/get_data.yml'
     params:
         outdir = 'data',
-        n_reads = config['get_data']['n_reads']
+        n_reads = config['fastq-dump']['n_reads']
     shell:
         """
         fastq-dump --split-files -X {params.n_reads} -O {params.outdir} {wildcards.id} 

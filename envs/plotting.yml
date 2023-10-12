@@ -1,0 +1,11 @@
+name: plotting
+channels:
+  - bioconda
+  - conda-forge
+  - r
+dependencies:
+  - deeptools  
+  - r-base
+  - r-vcfr
+  - r-heatmaply
+  - r-argparse
