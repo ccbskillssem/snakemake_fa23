@@ -1,5 +1,5 @@
 # CCB Skills Seminar (Fall 2023)
-**A gentle introduction to `snakemake`**: A tool for automating and streamlining your analyses
+**A gentle introduction to `snakemake`**: A tool for automating and streamlining your analyses 🐍
 
 Created by [Stacy Li](stacy.li) for the [Center for Computational Biology](ccb.berkeley.edu) at UC Berkeley.
 
@@ -54,7 +54,7 @@ conda activate snakemake_fa23
 
 ### DataHub
 This is a UC Berkeley only option – you need a Calnet ID to proceed.
-First, click [this link](TEMP PLACEHOLDER) and proceed through the various pages until you launch your JupyterHub instance. If everything went well, you should have a cloned `snakemake_fa23` folder.
+First, click [this link](https://biology.datahub.berkeley.edu/user/stacy-l/git-pull?repo=https://github.com/ccbskillssem/snakemake_fa23) and proceed through the various pages until you launch your JupyterHub instance. If everything went well, you should have a cloned `snakemake_fa23` folder.
 Open up a terminal instance, then run the commands below:
 ```
 cd snakemake_fa23
