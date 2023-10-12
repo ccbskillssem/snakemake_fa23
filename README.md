@@ -1,5 +1,5 @@
 # CCB Skills Seminar (Fall 2023)
-**A gentle introduction to `snakemake`**: A tool for automating and streamlining your analyses 🐍
+## **A gentle introduction to `snakemake`**: A tool for automating and streamlining your analyses 🐍
 
 Created by [Stacy Li](stacy.li) for the [Center for Computational Biology](ccb.berkeley.edu) at UC Berkeley.
 
@@ -96,6 +96,6 @@ Once you feel comfortable with how the above commands work, I recommend trying o
 * Try to implement a `rule all` in the `Snakefile` to ensure that both the coverage plot of your choice (`.html` or `.pdf`) and the vcf heatmap are always up to date.
 
 ## Credits and thanks
-The short-read data used in this workshop is from [Rogalski et al 2020, "https://www.sciencedirect.com/science/article/pii/S0944501320304936"](https://www.sciencedirect.com/science/article/pii/S0944501320304936). The vcfR heatmap plotting script is a modified version of a script from [Olawoye et al 2020, "The Bacteria Genome Pipeline (BAGEP): an automated, scalable workflow for bacteria genomes with Snakemake"](https://doi.org/10.7717/peerj.10121).
+The short-read *Fructilactobacillus sanfranciscensis* data used in this workshop is from [Rogalski et al 2020](https://www.sciencedirect.com/science/article/pii/S0944501320304936). The `vcfR` heatmap plotting script is a modified version of a script from [Olawoye et al 2020](https://doi.org/10.7717/peerj.10121).
 
-Thank you to my wonderful research group ([The Sudmant Lab](sudmantlab.org) @ UC Berkeley), especially my advisor Dr. Peter Sudmant and mentor Dr. Juan Manuel Vazquez. Everything I do is only possible because I stand upon the shoulders of giants. 🌟
+Thank you to my wonderful research group, [The Sudmant Lab](sudmantlab.org). As always, I am especially for my advisor Dr. Peter Sudmant and mentor Dr. Juan Manuel Vazquez. Everything I do is only possible because I stand upon the shoulders of giants. 🌟
