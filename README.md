@@ -1,7 +1,7 @@
 # CCB Skills Seminar (Fall 2023)
 ## **A gentle introduction to `snakemake`**: A tool for automating and streamlining your analyses 🐍
 
-Created by [Stacy Li](https://linktr.ee/stacy_li) for the [Center for Computational Biology](ccb.berkeley.edu) at UC Berkeley.
+Created by [Stacy Li](https://linktr.ee/stacy_li) for the [Center for Computational Biology](https://ccb.berkeley.edu/) at UC Berkeley.
 
 --------------
 
