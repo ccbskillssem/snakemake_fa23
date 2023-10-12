@@ -12,8 +12,8 @@ This is a repository containing a sample configuration + workflow for learning `
 
 - [Slides](#slides)
 - [Requirements](#requirements)
-- [Live tutorial setup](#live-tutorial-setup)
-- [Independent setup](#independent-tutorial-setup)
+- [Live setup](#live-setup)
+- [Independent setup](#independent-setup)
 - [Commands](#commands)
 - [Credits](#credits)
 - [Contact info](#contact-info)
@@ -28,7 +28,9 @@ You need `conda` (Anaconda distribution, `conda`, and `miniconda`) or a `conda`-
 **Don't have this yet?** Click [here](https://docs.conda.io/projects/miniconda/en/latest/) and select the appropriate installer, or use one of the DataHub setup options below.
 
 ## Live setup
-The setup below pre-populates the conda environments you'll need for the workshop. This will save us precious time while we go over the lecture.
+**This section refers to the setup commands used during the live (1 hour) workshop. If you are working through this on your own, please go to (#independent-setup).** 
+
+The setup below pre-populates the `conda` environments you'll need for the workshop: this will save us precious time while we go over the lecture.
 ### Local machine or savio interactive (`srun`)
 Use `git clone` or download a copy of this repository to a suitable location. This will be your working directory.
 ```
@@ -50,6 +52,8 @@ snakemake --cores all --use-conda --conda-create-envs-only output/visuals/vcf_he
 ```
 
 ## Independent setup
+This section refers to setup commands for independently working through the materials. `conda` environments will be generated on-the-fly as you run the workflow.
+
 ### Local machine or savio interactive (`srun`)
 Use `git clone` or download a copy of this repository to a suitable location. This will be your working directory.
 ```
