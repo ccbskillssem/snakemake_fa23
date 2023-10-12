@@ -1,7 +1,7 @@
 # CCB Skills Seminar (Fall 2023)
 ## **A gentle introduction to `snakemake`**: A tool for automating and streamlining your analyses 🐍
 
-Created by [Stacy Li](linktr.ee/stacy_li) for the [Center for Computational Biology](ccb.berkeley.edu) at UC Berkeley.
+Created by [Stacy Li](https://linktr.ee/stacy_li) for the [Center for Computational Biology](ccb.berkeley.edu) at UC Berkeley.
 
 --------------
 
@@ -109,4 +109,4 @@ The short-read *Fructilactobacillus sanfranciscensis* data used in this workshop
 Thank you to my wonderful research group, [The Sudmant Lab](sudmantlab.org). As always, I am especially for my advisor Dr. Peter Sudmant and mentor Dr. Juan Manuel Vazquez. Everything I do is only possible because I stand upon the shoulders of giants. 🌟
 
 ## Contact info
-If you'd like to stay in touch, please feel free to connect with me using any of the platforms [here](linktr.ee/stacy_li). If you're local, come and say hi at the next CCB event 👋
+If you'd like to stay in touch, please feel free to connect with me using any of the platforms [here](https://linktr.ee/stacy_li). If you're local, come and say hi at the next CCB event 👋
