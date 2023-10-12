@@ -10,12 +10,16 @@ This is a repository containing a sample configuration + workflow for learning `
 
 ## Table of contents
 
+- [Slides](#slides)
 - [Requirements](#requirements)
 - [Live tutorial setup](#live-tutorial-setup)
 - [Independent setup](#independent-tutorial-setup)
-- [Slides](#slides)
 - [Commands](#commands)
 - [Credits](#credits)
+
+## Slides
+
+There is a PDF copy of the slides in the repository above. Note that I may need to update it after the live workshop is over. 💻
 
 ## Requirements
 You need `conda` (Anaconda distribution, `conda`, and `miniconda`) or a `conda`-like (`mamba`, `micromamba`, etc) package manager installed to run this tutorial. That's it! All other packages will be installed into their own isolated environments as you go along.
@@ -62,9 +66,6 @@ conda env create --file envs/snakemake_fa23.yml
 bash
 conda activate snakemake_fa23
 ```
-## Slides
-
-There is a PDF copy of the slides in the repository above. Note that I may need to update it after the live workshop is over. 💻
 
 ## Commands
 This is a list of commands from the live workshop. All of the rules are documented with comments as well. All examples below will run the workflow to generate the `output/visuals/vcf_heatmap.pdf` target file.
