@@ -20,7 +20,7 @@ This is a repository containing a sample configuration + workflow for learning `
 
 ## Slides
 
-There is a PDF copy of the slides in the repository above: **note that the slides have been updated with corrections made during the live workshop.**
+Slides are included with the repo: click [here](https://github.com/ccbskillssem/snakemake_fa23/blob/main/ccb_snakemake_fa23_slidesv2.pdf) for a web view via GitHub. **Note that the slides have been updated with corrections made following the live workshop.**
 
 ## Requirements
 You need `conda` (Anaconda distribution, `conda`, and `miniconda`) or a `conda`-like (`mamba`, `micromamba`, etc) package manager installed to run this tutorial. That's it! All other packages will be installed into their own isolated environments as you go along.
