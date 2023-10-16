@@ -10,17 +10,24 @@ This is a repository containing a sample configuration + workflow for learning `
 
 ## Table of contents
 
-- [Slides](#slides)
 - [Requirements](#requirements)
 - [Live setup](#live-setup)
 - [Independent setup](#independent-setup)
 - [Commands](#commands)
-- [Credits](#credits)
+- [Credits](#credits-and-thanks)
 - [Contact info](#contact-info)
 
-## Slides
+## Workshop materials
+These materials were originally prepared for a live one-hour workshop. You can run the tutorial on your own by watching the recording, or following the slides and commands provided here.
+| Resource | Description |
+|---------------|------------------------------|
+| Recording     | Available [here](https://youtu.be/tUTcfoMQl98). |
+| Slides        | Included with the repo, viewable by web [here.](https://github.com/ccbskillssem/snakemake_fa23/blob/main/ccb_snakemake_fa23_slidesv2.pdf) **Note that these have been edited to address errors caught during the live workshop.** |
+| Commands      | See the [commands](#commands) section below. |
 
-Slides are included with the repo: click [here](https://github.com/ccbskillssem/snakemake_fa23/blob/main/ccb_snakemake_fa23_slidesv2.pdf) for a web view via GitHub. **Note that the slides have been updated with corrections made following the live workshop.**
+## Issues
+
+If you have any issues with the materials, please submit an issue via GitHub. I plan on actively maintaining this resource until I depart Berkeley ☺️
 
 ## Requirements
 You need `conda` (Anaconda distribution, `conda`, and `miniconda`) or a `conda`-like (`mamba`, `micromamba`, etc) package manager installed to run this tutorial. That's it! All other packages will be installed into their own isolated environments as you go along.
@@ -41,7 +48,7 @@ snakemake --cores all --use-conda --conda-create-envs-only output/visuals/vcf_he
 
 ### DataHub
 This is a UC Berkeley only option – you need a Calnet ID to proceed.
-First, click [this link]() and proceed through the various pages until you launch your JupyterHub instance. If everything went well, you should have a cloned `snakemake_fa23` folder.
+First, click [this link](https://biology.datahub.berkeley.edu/hub/user/stacy-l/git-pull?repo=https%3A%2F%2Fgithub.com%2Fstacy-l%2Fsnakemake_fa23&branch=main) and proceed through the various pages until you launch your JupyterHub instance. If everything went well, you should have a cloned `snakemake_fa23` folder.
 Open up a terminal instance, then run the commands below:
 ```
 cd snakemake_fa23
